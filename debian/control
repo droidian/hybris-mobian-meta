@@ -222,6 +222,8 @@ Depends: ${misc:Depends},
          psutils,
          inxi,
          dbus-x11,
+         hybris-usb,
+         isc-dhcp-server,
 Description: Droidian metapackages - devtools
  This metapackage depends on a bunch of packages that
  aid development.
