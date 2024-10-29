@@ -197,6 +197,7 @@ Depends: ${misc:Depends},
          nfcd-tools,
 Breaks: droidian-full (<< 22+git20211206000000)
 Replaces: droidian-full (<< 22+git20211206000000)
+Conflicts: g4music
 Description: Droidian metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
  the phosh mobile shell more complete.
