@@ -201,6 +201,7 @@ Depends: ${misc:Depends},
          droidian-quirks-lollypop-dummy,
          getcutout,
          nfcd-tools,
+         droidian-quirks-lomiri,
 Breaks: droidian-full (<< 22+git20211206000000)
 Replaces: droidian-full (<< 22+git20211206000000)
 Conflicts: g4music
