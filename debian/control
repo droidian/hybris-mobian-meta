@@ -209,6 +209,53 @@ Description: Droidian metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
  the phosh mobile shell more complete.
 
+Package: droidian-plamo-wf
+Architecture: all
+Depends: ${misc:Depends},
+         droidian-base (= ${binary:Version}),
+         plasma-mobile-wf-config-hwcomposer,
+         droidian-quirks-plamo-wf,
+         qt6-svg-plugins,
+         kde-cli-tools,
+         kio-extras,
+         accountsservice,
+         qt6-text-input-v3,
+         qt5-text-input-v3,
+         droidian-quirks-wayland,
+         upower,
+         feedbackd,
+         qmlkonsole,
+         dolphin,
+         kclock,
+         kweather,
+         kate,
+         kcalc,
+         okular,
+         calindori,
+         plasma-systemmonitor,
+         plasma-discover,
+         plasma-discover-backend-flatpak,
+         elisa,
+         ocean-sound-theme,
+         oxygen-sounds,
+         spacebar,
+         plasma-phonebook,
+         kde-config-gtk-style,
+         kde-config-gtk-style-preview,
+         breeze-gtk-theme,
+         qtwayland5,
+         firefox,
+         firefox-mobile-config,
+         droidian-quirks-firefox,
+         phosh-osk-stub,
+         gnome-calls,
+         droidian-quirks-calls-config-ofono,
+Breaks: droidian-full (<< 22+git20211206000000)
+Replaces: droidian-full (<< 22+git20211206000000)
+Description: Droidian metapackages - plasma-mobile-wf environment
+ This metapackage depends on a bunch of packages for the droidian installation with
+ the plasma mobile shell running with wayfire compositor.
+
 Package: droidian-devtools
 Architecture: all
 Depends: ${misc:Depends},
