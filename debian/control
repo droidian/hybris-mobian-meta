@@ -209,7 +209,7 @@ Description: Droidian metapackages - full phosh environment
  This metapackage depends on a bunch of packages that make
  the phosh mobile shell more complete.
 
-Package: droidian-plamo-wf
+Package: droidian-plamo-wf-full
 Architecture: all
 Depends: ${misc:Depends},
          droidian-base (= ${binary:Version}),
@@ -248,8 +248,6 @@ Depends: ${misc:Depends},
          firefox-mobile-config,
          droidian-quirks-firefox,
          phosh-osk-stub,
-         gnome-calls,
-         droidian-quirks-calls-config-ofono,
 Breaks: droidian-full (<< 22+git20211206000000)
 Replaces: droidian-full (<< 22+git20211206000000)
 Description: Droidian metapackages - plasma-mobile-wf environment
